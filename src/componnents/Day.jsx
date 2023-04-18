@@ -41,6 +41,7 @@ export default function Day(props) {
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
+          placeholder="Digite seu compromisso"
         />
         <button onClick={addOrders}>+</button>
       </div>

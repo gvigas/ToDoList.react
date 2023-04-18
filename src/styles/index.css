@@ -162,6 +162,10 @@ main h1 {
     border-radius: 10px;
     margin: 5px;
   }
+  .search input::placeholder {
+    padding: 10px;
+    color: #1b263b;
+  }
   .appointment label {
     font-size: 1em;
     font-family: "Rubik", sans-serif;
